@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+ 
+<body>
+
+<!-- MENU HAMBURGER -->
+<div class="menu" id="menu">
+    <button class="fermer" id="close">×</button>
+    <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<button id="ouvrirmenu" class="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    
+</button>
+
+<!-- ================= ACCUEIL ================= -->
+<section id="accueil" class="section header">
+
+    <p class="h1">Lynh Chenilco</p>
+
+    <div class="statut">
+        <p class="h2">Étudiante L1</p>
+        <a href="https://www.univ-spn.fr" target="_blank">
+            <img class="uspn" src="icones/uspn.png" width="200">
+        </a>
+    </div>
+
+    <div class="lien-projets">
+        <a class="bouton-projet" href="#projets">Voir projets</a>
+    </div>
+
+    <img src="images/lapin.png" width="300">
+
+</section>
+
+<!-- ================= PROJETS ================= -->
+<section id="projets" class="section">
+
+<p class="projet">Mes projets personnels</p> <br></br>
+
+<div class="tous-projets">
+
+
+
+<div class="projet-pinterest">
+
+    <div class="header-image">
+
+        <p class="numero-projet">Projet 1</p>
+        <div class="images-pinterest">
+
+            <div class="image-reference">
+            <img src="images/reference_pinterest.png" width="150px" height="200px">
+            <p>référence</p>
+            </div>
+
+            <div class="image-clone">
+            <a class="lien-clone" href="https://lynhclm.github.io/pinterestclone/pinterest.html" target="_blank">   
+                    <img src="images/clone_pinterest.png" width="150px" height="200px" >
+            </a>
+            <p>clone</p>
+
+            </div>
+            <p>Reproduction de ma page pinterest - HTML & CSS.
+                Utilisation des conteneurs Flexbox et Grid, approfondissement de la mise en page, structure de l'interface web.
+                <br><br> (appuyer sur le clone pour l'ouvrir) 
+             <a class="github-pinterest" href="https://github.com/lynhclm/pinterestclone.git" target="_blank">
+                <br><br>voir code
+            </a>
+            </p>
+            <br>
+        </div>
+
+    </div>
+</div>
+
+<div class="projet-calculatrice">
+
+    <div class="header-image2">
+        <p class="numero-projet2">Projet 2</p>
+        <div class="image-paragraphe2">
+        <video class="video-calculatrice" width="300" controls>
+        <source src="videos/video_calculatrice.mov" type="video/mp4">
+        </video>
+        <p class="paragraphe-calculatrice">
+        Développement d'une calculatrice avec la bibliothèque Tkinter
+        de Python - Apprentissage de la création d'une interface graphique - 
+        approfondissement de la programmation orientée utilisateur.
+         <a class="texte-code" href="https://github.com/lynhclm/python_calculatrice.git" target="_blank">
+       <br> <br> voir code
+        </a>
+        </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    
+<div class="projet-kirby">
+
+    <div class="header-image3">
+        <p class="numero-projet3">Projet 3</p>
+        <div class="image-paragraphe3">
+            <video class="video-kirby" width="300" controls>
+                <source src="videos/video_jeukirby.mp4" type="video/mp4">
+            </video>
+            <p class="paragraphe-kirby">
+                création d'un jeu Python avec la bibliothèque Pygame - 
+                bases simples avec import d'images - 
+                collisions - déplacements - propriétés clavier
+<a class="kirby-code" href="https://github.com/lynhclm/pygame_kirby.git"  target="_blank">
+   <br><br> voir code
+</a>            
+</p>
+        
+        </div>
+    </div>
+</div>
+
+<div class="projet-bibliotheque">
+    <div class="header-image4">
+        <p class="numero-projet4">Projet 4</p>
+        <div class="image-paragraphe4">
+            <video class="video-bibliotheque" width="300" height="300" controls>
+                <source src="videos/bibliotheque_video.mov" type="video/mp4">
+            </video>
+            <p class="paragraphe-calculatrice">
+                Gestionnaire bibliothèque de livres développée en python avec les bibliothèques sqlite3 et tkinter - 
+                POO - Gestion des actions utilisateurs - Apprentissage des requêtes SQL - interface graphique
+                <a class="bibliotheque-code" href="https://github.com/lynhclm/Biblioth-que_tkinter_sqlite.git" target="_blank">
+                    <br><br> voir code
+                </a>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div class="projet-visualiseur">
+    <div class="header-image5">
+        <p class="numero-projet5">Projet 5</p>
+        <div class="image-paragraphe5">
+            <video class="video-visualiseur" width="300" height="300" controls>
+                <source src="videos/video_visualiseur_tri.mov" type="video/mp4">
+            </video>
+            <p class="paragraphe-visualiseur">
+                visualiseur de tri python - interface Tkinter - algorithmique - gestion des étapes d'éxécution
+                <a class="visualiseur-code" href="https://github.com/lynhclm/visualiseur_tri.git" target="_blank">
+                    <br><br> voir code
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="projet-portfolio">
+    <div class="header-image6">
+        <p class="numero-projet6">Projet 6</p>
+        <div class="image-paragraphe6">
+            <a class="lien-portfolio" href="lienportfolio" target="_blank">
+            <img class="image-portfolio" src="images/image-portfolio.png" width="150px" height="200px" controls>
+            </a>
+            <p class="paragraphe-portfolio">
+            projet principal - création de mon portfolio - programmation html & css
+            <a class="portfolio-code" href="code" target="_blank">
+               <br><br> voir code
+            </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+</div>
+    
+<!------------------------------------------------------->
+
+<div class="projet-fondamentaux">
+
+    <p class="numero-projets">Notions étudiées</p>
+
+    <div class="fondamentaux-contenu">
+
+        <img src="icones/pythonlogo.png" class="python-logo">
+
+        <div class="texte-fondamentaux">
+
+            <p>
+                Quelques travaux pratiques réalisés en Python afin de maîtriser les 
+                fondamentaux de la programmation.
+            </p>
+
+            <p>
+                <strong>Algorithmique :</strong> récursivité, tris (sélection,
+                insertion, fusion), recherche dichotomique.
+                <br><br>
+
+                <strong>Structures de données :</strong> manipulation des piles,
+                files et arbres.
+                <br><br>
+
+                <strong>Bases de données :</strong> Création de tables, manipulations 
+                des requêtes SQL.
+                <br><br>
+
+                <strong>Systèmes :</strong> Apprentissage des commandes Linux.
+            </p>
+
+            <a href="https://github.com/lynhclm/fondamentaux_python.git" target="_blank">
+                Voir les exercices
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<p class="titre-encours">En cours d'apprentissage</p>
+<div class="en-cours">
+            <div class="langage">python</div>
+            <div class="langage">Tkinter</div>
+            <div class="langage">pygame</div>
+            <div class="langage">html</div>
+            <div class="langage">CSS</div>
+            <div class="langage">C</div>
+            <div class="langage">JS</div>
+</div>
+
+<!------------------------------------------------------->
+
+
+
+
+
+
+
+<!-- ================= PARCOURS ================= -->
+
+<section id="parcours" class="section">
+
+    <p class="a-propos"> à propos de moi : </p> <br>
+    <p class="paragraphe1">
+        Je suis étudiante en première année de licence de<strong>  mathématiques, </strong>
+        passionée par les domaines du développement informatique notamment l'IA, le développement et la programmation.
+        J'aimerais poursuivre mes études dans ce domaine
+        afin de développer des compétences solides en technologies numériques.
+        À terme, je voudrais intégrer une école d'ingénieurs afin de me spécialiser dans l'intelligence artificielle et le développement.
+        Mon objectif est de participer à la création de solutions innovantes et de concevoir
+        des systèmes capables de répondre à des problématiques concrètes.
+        </p>
+<br>
+
+
+<div class="cartes-parcours">
+
+    <div class="carte">
+
+        <img src="icones/ordi.png" class="icone-carte">
+
+        <h3>Centres d'intérêt</h3>
+        <ul>
+            <li>Intelligence artificielle</li>
+            <li>Développement web</li>
+            <li>Programmation</li>
+            <li>Création de projets</li>
+        </ul>
+    </div>
+
+
+
+    <div class="carte">
+
+        <img src="icones/objectif.png" class="icone-carte">
+
+        <h3>Objectifs</h3>
+
+        <ul>
+           <li> Intégrer une école d'ingénieurs après une L3 </li>
+           <li>Me spécialiser dans le développement</li>
+           <li>Concevoir des solutions innovantes </li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+</section>
+
+<!---------------PROFIL------------------------------------>
+
+<section id="profil" class="section">
+
+    <p class="section-profil">Profil</p>
+
+    <div class="profil-cartes">
+
+
+        <div class="profil-carte">
+
+            <img src="images/cambridge.jpeg" class="profil-image">
+
+            <div class="profil-texte">
+                <h3>Anglais</h3>
+
+                <p>
+                J'ai obtenu en 2020 le certificat YLE Movers qui m'a permis de renforcer
+                mon intérêt pour les langues étrangères. 
+                Aujourd'hui je continue à améliorer mon anglais
+                dans l'optique de travailler à l'international.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="profil-carte">
+
+            <img src="images/audition.jpeg" class="profil-image">
+
+            <div class="profil-texte">
+
+                <h3>Piano</h3>
+
+                <p>
+                Je possède également beaucoup de passions en dehors des études.
+                La musique prend une place importante dans ma vie, je prends des cours
+                de piano et de solfège au conservatoire
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="profil-carte">
+
+            <img src="images/boxe.jpeg" class="profil-image">
+
+            <div class="profil-texte">
+
+                <h3>Boxe</h3>
+
+                <p>
+                J'ai pratiqué durant sept années la boxe thaïlandaise.
+                Cette pratique m'a permis d'améliorer 
+                ma discipline et m'a également poussée à me surpasser.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section-contact">
+
+    <p class="nom-contact">Contact</p>
+
+    <div class="coordonees">
+    <a href="tel:+33619303244">+33 6 19 30 32 44</a>
+    <a href="mailto:lynhchenilco@gmail.com">lynhchenilco@gmail.com</a>
+    </div>
+</section>
+
+</body>
+</html>
